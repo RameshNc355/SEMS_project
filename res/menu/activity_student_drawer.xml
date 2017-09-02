@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book_exam"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/book_exam_text" />
+        <item
+            android:id="@+id/nav_take_exam"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/take_exam_text" />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_student_logout"
+            android:title="@string/logout_text"/>
+    </group>
+
+</menu>

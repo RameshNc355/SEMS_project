@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Secure Exam Management System</string>
+
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_proctor">ProctorActivity</string>
+    <string name="title_activity_student">StudentActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_text">Login</string>
+    <string name="passwd_text">Password</string>
+    <string name="user_name_text">UserID</string>
+    <string name="add_question_text">Add Question</string>
+    <string name="add_subject_text">Add Subject</string>
+    <string name="add_user_text">Add User</string>
+
+    <string name="book_exam_text">Book Exam</string>
+    <string name="take_exam_text">Take Exam</string>
+    <string name="get_result_text">Get Result</string>
+
+    <string name="subject_text">Subject</string>
+    <string name="question_text">Question</string>
+    <string name="answer1_text">Answer 1</string>
+    <string name="answer2_text">Answer 2</string>
+    <string name="answer3_text">Answer 3</string>
+    <string name="answer4_text">Answer 4</string>
+    <string name="correct_answer_text">Correct Answer</string>
+    <string name="level_text">Level</string>
+    <string name="email_text">Email</string>
+    <string name="user_type_text">User Type</string>
+    <string name="photo_text">Photo</string>
+    <string name="take_photo_text">Take Photo</string>
+    <string name="student_id_text">Student ID</string>
+    <string name="name_text">Name</string>
+    <string name="authenticate_text">Authenticate</string>
+    <string name="you_have_scored_text">Your score is as follows:</string>
+    <string name="score_text">Score</string>
+    <string name="ok_text">OK</string>
+    <string name="next_text">Next</string>
+    <string name="no_of_que_text">No of questions</string>
+    <string name="set_exam_text">Set Exam</string>
+    <string name="get_photos_text">Get Photos</string>
+    <string name="insert_user_failed_text">Unable to insert the user. Kindly try again.</string>
+    <string name="insert_user_success_text">User added successfully.</string>
+    <string name="empty_subject_text">Kindly enter a subject.</string>
+    <string name="insert_subject_failed_text">Unable to insert subject. Kindly try again.</string>
+    <string name="insert_subject_success_text">Successfully inserted the subject.</string>
+    <string name="insert_question_failed_text">Failed to insert the question. Kindly try again.</string>
+    <string name="insert_question_success_text">Successfully inserted the question.</string>
+    <string name="student_id_argument">student_id</string>
+    <string name="no_of_que_value">5</string>
+    <string name="insufficient_no_of_ques_text">Insufficient number of questions.</string>
+    <string name="unable_to_create_exam_text">Unable to book the exam. Kindly try again.</string>
+    <string name="name_param">name</string>
+    <string name="email_param">email</string>
+    <string name="password_param">password</string>
+    <string name="type_param">type</string>
+    <string name="photo_param">photo</string>
+    <string name="kindly_take_a_photo_text">Kindly take a photo.</string>
+    <string name="logged_in_text">Login successful.</string>
+    <string name="requested_resource_not_found_text">Requested resource not found.</string>
+    <string name="enter_valid_email_text">Please enter valid email</string>
+    <string name="enter_all_fields_text">Please enter all the fields.</string>
+    <string name="invalid_json_text">Error Occured [Server\'s JSON response might be invalid]!</string>
+    <string name="question_param">question</string>
+    <string name="ans1_param">ans1</string>
+    <string name="ans2_param">ans2</string>
+    <string name="ans3_param">ans3</string>
+    <string name="ans4_param">ans4</string>
+    <string name="correct_ans_param">correct_ans</string>
+    <string name="level_param">level</string>
+    <string name="subject_param">subject</string>
+    <string name="student_id_param">student_id</string>
+    <string name="insert_exam_success_text">Exam has been booked successfully.</string>
+    <string name="no_available_exams_text">No available exams</string>
+    <string name="unable_to_load_questions_text">Unable to load questions.</string>
+    <string name="result_updated_successfully_text">Result updated successfully.</string>
+    <string name="unable_to_update_result_text">Unable to update result.</string>
+    <string name="result_param">result</string>
+    <string name="exam_id_param">exam_id</string>
+    <string name="verify_status">Verify Status</string>
+    <string name="status_param">status</string>
+    <string name="invalid_user_text">Invalid user</string>
+    <string name="please_login_text">Please login</string>
+    <string name="logout_text">Logout</string>
+    <string name="exam_students_text">Exam Students</string>
+    <string name="student_verified_successfully_text">Student verified successfully.</string>
+    <string name="verified_text">Verified</string>
+    <string name="no_photos_available_text">No photos available</string>
+    <string name="no_permission_text">No permission to create image files</string>
+    <string name="unable_to_verify_student_text">Unable to verify student.</string>
+
+    <string-array name="user_levels">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+    <string-array name="question_levels">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="no_of_questions">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+</resources>
